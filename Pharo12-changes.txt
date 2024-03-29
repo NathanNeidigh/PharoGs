@@ -1,0 +1,21 @@
+Removed from Pharo 11.0
+-----------------------
+ChangeSet class>>gatherChangeSets
+ClassOrganization>>initializeClass
+MethodAddition>>createCompiledMethod
+MethodAddition>>installMethod
+ProtoObjectTest>>classToBeTested
+ProtoObjectTest>>testFastPointersTo
+ProtoObjectTest>>testFlag
+ProtoObjectTest>>testIfNil
+ProtoObjectTest>>testIfNilIfNotNil
+ProtoObjectTest>>testIfNotNil
+ProtoObjectTest>>testIfNotNilIfNil
+ProtoObjectTest>>testIsImmediateObject
+ProtoObjectTest>>testIsNil
+ProtoObjectTest>>testNextObject
+ProtoObjectTest>>testNotTheSame
+ProtoObjectTest>>testPointersTo
+ReflectiveMethod>>flushCache
+TestCase class>>historyAnnouncer
+WeakRegistry class>>default

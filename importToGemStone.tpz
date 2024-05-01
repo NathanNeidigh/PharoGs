@@ -125,7 +125,7 @@ run
 "Class and Pool initialization"
 ChronologyConstants initialize.
 DateAndTime initialize.
-Color initialize.
+"Color initialize."
 HashTableSizes initialize.
 Character initialize.
 String initialize.
@@ -144,16 +144,16 @@ ZnMimeType initialize.
 ZipWriteStream initialize.
 InflateStream initialize.
 FastInflateStream initialize.
-ChangeSet initialize.
-MetacelloPharoPlatform initialize.
+"ChangeSet initialize."
+"MetacelloPharoPlatform initialize."
 MCFileTreeFileSystemUtils initialize.
 MD5NonPrimitive initialize.
 TonelFileSystemUtils initialize.
 
 SharedPool allSubclasses do: [:each | each initialize].
 
-SystemOrganization := SystemOrganizer new.
-SystemOrganizer environment organization: SystemOrganization.
+"SystemOrganization := SystemOrganizer new.
+SystemOrganizer environment organization: SystemOrganization."
 SourceFiles := SourceFileArray new.
 Transcript := Globals @env0:at: #'Transcript'.
 

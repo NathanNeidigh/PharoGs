@@ -72,8 +72,7 @@ input PharoMods/ProcessSpecificVariable.gs
 input PharoMods/Processor.gs
 input PharoMods/ProcessorScheduler.gs
 input PharoMods/ProtoObject.gs
-input PharoMods/ProtoObjectTest.gs
-input PharoMods/ReflectiveMethod.gs
+!input PharoMods/ReflectiveMethod.gs
 input PharoMods/ScaledDecimalGs.gs
 input PharoMods/SemaphoreWrapper.gs
 input PharoMods/SessionManager.gs

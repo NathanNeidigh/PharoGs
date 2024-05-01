@@ -16,7 +16,7 @@ createClass
 			classInstVars: (self classInstanceVariables collect: [:each | each name])
 			poolDictionaries: (self sharedPoolsString collect: [:each | each name]) asArray
 			inDictionary: Pharo)
-			@env0:category: category;
+			@env0:category: packageName;
 			@env0:comment: comment;
 			@env0:commentStamp: commentStamp;
 			yourself
@@ -29,7 +29,7 @@ createClass
 			classInstVars: (self classInstanceVariables collect: [:each | each name])
 			poolDictionaries: (self sharedPoolsString collect: [:each | each name]) asArray
 			inDictionary: Pharo)
-			@env0:category: category;
+			@env0:category: packageName;
 			@env0:comment: comment;
 			@env0:commentStamp: commentStamp;
 			yourself

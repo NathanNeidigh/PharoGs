@@ -50,7 +50,7 @@ input PharoMods/Job.gs
 input PharoMods/LargeInteger.gs
 input PharoMods/Locale.gs
 input PharoMods/LocalTimeZone.gs
-!input PharoMods/MCClassDefinition.gs
+input PharoMods/MCClassDefinition.gs
 input PharoMods/MCWorkingCopy.gs
 !input PharoMods/MCTraitDefinition.gs
 input PharoMods/MD5.gs

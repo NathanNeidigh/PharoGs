@@ -49,7 +49,9 @@ Depending on the state of development, some modifications may be required to the
 
 ```
 cd ~/code/ # or where you want to put the checkout
-git clone https://github.com/jgfoster/pharo.git
+git clone --tags https://github.com/jgfoster/pharo.git
+git remote add upstream https://github.com/pharo-project/pharo.git
+git fetch --tags upstream
 ```
 
 Use bootstrap to get a new minimal image:
